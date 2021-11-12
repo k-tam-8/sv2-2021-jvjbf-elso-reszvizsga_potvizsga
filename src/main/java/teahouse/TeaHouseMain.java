@@ -17,7 +17,7 @@ public class TeaHouseMain {
         teaHouse.addTea(secondTea);
         teaHouse.addTea(thirdTea);
 
-        System.out.println(teaHouse.getName()); // Vörös oroszlán
+        System.out.println(teaHouse.getHouseName()); // Vörös oroszlán
         System.out.println(teaHouse.getTeas().get(2).getName()); // A nagyi lekvárja
         System.out.println(teaHouse.getTeas().get(1).getPrice()); // 1745
         System.out.println(teaHouse.getOpenTime()); // 11:00
